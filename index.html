@@ -1,94 +1,133 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" href="img/techis-logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Student Portfolio</title>
+    <title>Portfolio</title>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <div class="container">
-            <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+            <a class="navbar-brand title-icon" href="https://portfolio-saber.herokuapp.com/"><span class="font-primary">P</span>ortfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
             <span class="navbar-toggler-icon"></span>
-          </button>
-         
-        <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav ms-auto mb-2 ">
+          </button> 
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mb-2">
               <li class="nav-item">
-                <a class="nav-link font-black"  href="#about">About</a>
+                <a class="nav-link" font-black  href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link font-black" href="#project">Projects</a>
-              </li> 
-            </ul>
+                <a class="nav-link" font-black  href="#project">Projects</a>
+              </li>
+            </ul>   
           </div>
         </div>
       </nav>
 
-      <div id="about">
-        <h2>
-          <span class="font-primary">A</span>bout
-        </h2>
-        <img src="img/profile-picture.jpg">
-        <div class="name">Jevon Quarry</div>
-        <div class="job">Web Developer</div>
-        <div class="skills">Graphic Design / HTML / CSS / JavaScript / React.js / Redux / Python / Django</div>
-        <p>
-          I'm an aspiring Web Developer with a strong background in Graphic Design. I find coding to be fun, and challenging.
-        </p>
-        <div class="email">jevonquarry@gmail.com</div>
-        <div class="icon">
-          <a href="https://github.com/JevonQuarry"><i class="bi bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/jevon-quarry/"><i class="bi bi-linkedin ms-3"></i></a>
-        </div>
+      <div class="About" id="about">
+          <h2><span class="font-primary">A</span>bout</span></h2>
+          <img src="img/jevon.jpg">
+          <div class="name">Jevon Quarry </div>
+          <div class="vocation">Web Application Developer</div>
+          <div class="skills">Graphic Design / HTML / CSS / JavaScript / React.js / Redux / Python / Django</div>
+          <p>
+            I'm an aspiring Web Developer with a strong background in Graphic Design. I find coding to be fun, and challenging.
+          </p>
+          <div class="email">jevonquarry@gmail.com</div> 
+          <div class="icons">
+            <a href="https://github.com/JevonQuarry"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/jevon-quarry/"><i class="bi bi-linkedin ms-3"></i></a> 
+          </div>         
       </div>
-
-      <div id="project">
-        <h2>
-          <span class="font-primary">P</span>roject
-        </h2>
-
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
+      <div class="project" id="project">
+        <h2 style="text-align: center;"><span class="font-primary">P</span>rojects</h2>
+        <div class="card mb-3">
+          <div class="row">
             <div class="col-md-4">
-              <img src="img/todo-app-picture.jpg" alt="Todo List">
+              <video id="video" autoplay muted controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Todo List App</h5>
-                <p class="card-text">An app designed to help you track the responsiblities you might have for the day. You're able to add, edit, and remove tasks. </p>
-                <p class="card-text"><small class="text-muted"></small></p>
+                <h5 class="card-title">Dreamline Bussiness</h5>
+                <p class="card-text">
+                  <strong>Project Description:</strong>Use our online free logo maker software to help design and create logos by using our interface and saving time on manual
+                  fixing. Create or edit vector graphics such as illustrations, diagrams, line arts, charts, and logos available on our
+                  website! It’s your one-shop stop for creative logo designing. </br> <br>
+                  <strong>Skills Used:</strong>Frontend built in React and Redux.Backend built in Django API.</p>
+                <p class="card-text">
+                  <strong>Login ID:</strong><br>Email : test@test.com<br>
+                  password : test123</p>
+                <a href="https://github.com/JevonQuarry1/dreamline-bussiness" target="_blank" class="btn btn-secondary">Github Link</a>
+                <a href="https://dreamlinebussiness-frontend.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
+        <div class="card mb-3">
+          <div class="row">
             <div class="col-md-4">
-              <img src="img/twitter-clone login picture.jpg" alt="Twitter Clone">
-              <img src="img/twitter-clone picture.jpg" alt="Twitter Clone">
+              <video id="video" autoplay muted controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Twitter Clone Website</h5>
-                <p class="card-text">A website that allows you to create an account so you can create, update and delete tweets. You're also able to upload and delete images. </p>
-                <p class="card-text"><small class="text-muted"></small></p>
+                <h5 class="card-title">SieArt</h5>
+                <p class="card-text"><Strong>Project Description:</Strong>A full-features, simple and free e-commerce website to
+                  tap the creativity in you while posting your pictures! Add it to
+                  our favorites or simply post it for the world to appreciate and admire without having to send or receive
+                  invites! </p>
+                <p class="card-text"><Strong>Skills Used:</Strong> Frontend built in React and Redux, Backend built in Django
+                  API</p>
+        
+                <p class="card-text">
+                  <strong>Login ID:</strong><br>Email : test@test123.com<br>
+                  password : test123
+                </p>
+                <a href="https://github.com/JevonQuarry/Seiart-main" target="_blank" class="btn btn-secondary">GithubLink</a>
+                <a href="https://frontend-seiart.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
+        
               </div>
             </div>
           </div>
         </div>
 
+        <div class="card mb-3">
+          <div class="row">
+            <div class="col-md-4">
+             <video id="video" autoplay muted controls>
+                <source src="video/jevon.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Twitter Clone</h5>
+                <p class="card-text">
+                  <strong>Project Description:</strong>This is the app where you can share your thoughts using tweets.</br> 
+                  <strong>Skills Used:</strong>Html/ CSS/Bootstrap/Javascript/Django/Cloudinary/Heroku</p>
+                  <p class="card-text">
+                    <strong>Login ID:</strong><br>Username : test@123<br>
+                    password : Unique@123
+                  </p>
+                <a href="https://jq-twitter-clone.herokuapp.com/login/?next=/" target="_blank" class="btn btn-secondary">Github Link</a>
+                <a href="https://github.com/JevonQuarry/twitter-clone" target="_blank" class="btn btn-secondary">Website Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
-
 </html>

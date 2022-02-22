@@ -1,81 +1,103 @@
-body{
-    font-family: Arial;
+/* This is a style file for our portfolio */
+
+body {
+  font-family: "monospace", sans-serif;
+}
+.font-primary {
+  color: #b00c00;
 }
 
-.font-primary{
-    color:#b00c00;
+.title-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* General design*/
+
+p {
+  font-size: 14px;
 }
 
-.title-icon{
-    font-size: 20px;
-    font-weight: bold;
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
-p{
-    font-size:14px;
+.nav-link {
+  color: #000 !important;
+  font-weight: bold;
 }
 
-h2{
-    font-weight: bold;
-    font-size: 23px;
-    margin-bottom: 20px;
+/* About section*/
+.About {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
 }
 
-a.font-black{
-    color: #000 !important;
+.About img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
 }
 
-#about {
-    margin: 60px auto;
-    max-width: 400px;
-    text-align: center;
+.About .name {
+  font-size: 19px;
 }
 
-#about img{
-    border-radius: 50%;
-    width:120px;
-    margin-bottom: 10px;
+.About .vocation {
+  font-size: 17px;
+  color: #b00c00;
+  margin-bottom: 10px;
 }
 
-#about .name{
-    font-size: 19px;
+.About .skills {
+  font-size: 14px;
+  color: #00aeae;
+  margin-bottom: 10px;
 }
 
-#about .job{
-    font-size: 17px;
-    color: #b00c00;
-    margin-bottom: 10px;
+.About .email {
+  margin-top: 1px;
+  font-size: 14px;
 }
 
-#about .skills{
-    font-size: 14px;
-    color:#a8a8ab;
-    margin-bottom: 10px;
+.About .icons {
+  margin-top: 20px;
+  font-size: 30px;
 }
 
-#about .email{
-    font-size: 14px;
-    margin-top: 10px;
+.About .icons a {
+  color: #000000;
 }
 
-#about .icon{
-    margin-top: 20px;
-    font-size: 30px;
+/* Project */
+.project {
+  margin: 60px auto;
+  width: 80%;
+  text-align: justify;
 }
 
-#about .icon a{
-    color:#b00c00;
+.project .card img {
+  width: 100%;
 }
 
-#project{
-    margin:60px auto;
-    width: 80%;
+.project .card-title {
+  font-weight: bold;
+  text-align: justify;
 }
 
-#project h2{
-    text-align: center;
+.project .card-text {
+  text-align: justify;
 }
 
-#project .card img {
-    width:100%;
+#button {
+  text-align: justify;
+  margin: auto;
+}
+
+video {
+  width: 100%;
+  max-height: 322px;
+  background-color: black;
 }
